@@ -1,5 +1,6 @@
 Neonite Porter is a tool that switches your Fortnite game to Neonite Backend.
 
+This tool was made for the people that have fiddler broken or give problems to use (my case), and well its kinda easier in this way.
 
 How to use:
 
