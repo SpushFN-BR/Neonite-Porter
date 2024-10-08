@@ -44,7 +44,7 @@ namespace FortniteFiddler
         {
             if (session.RequestHeaders["User-Agent"].StartsWith("Fortnite"))
             {
-                if (session.PathAndQuery.Contains("/game/v2/profile/")) // this is just for locker, lobby ect, switch to /fortnite/api/storefront for shop
+                if (session.PathAndQuery.Contains("/game/v2/profile/") || session.PathAndQuery.Contains("/api/locker/v3"))
                 {
                     if (session.HTTPMethodIs("connect"))
                     {
