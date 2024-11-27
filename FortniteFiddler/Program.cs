@@ -44,7 +44,7 @@ namespace FortniteFiddler
         {
             if (session.RequestHeaders["User-Agent"].StartsWith("Fortnite"))
             {
-                if (session.PathAndQuery.Contains("/game/v2/profile/") || session.PathAndQuery.Contains("/api/locker/v3") || session.PathAndQuery.Contains("/lightswitch/api/service/") || session.PathAndQuery.Contains("/waitingroom/api/waitingroom"))
+                if (session.PathAndQuery.Contains("/game/v2/profile/") || session.PathAndQuery.Contains("/api/locker/v3") || session.PathAndQuery.Contains("/lightswitch/api/service/") || session.PathAndQuery.Contains("/waitingroom/api/waitingroom") || session.PathAndQuery.Contains("/api/locker/v4/"))
                 {
                     if (session.HTTPMethodIs("connect"))
                     {
